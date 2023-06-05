@@ -3,9 +3,9 @@
             background-color: #fff9dd
         }
         @media (max-width: 768px) {
-            #map {
-                height: 80vh; /* Adjust the height for mobile devices */
-            }
+                #map-subtitle {
+                        margin-bottom: 20px; /* Adjust the margin-bottom value as needed */
+                }
         }
         #map-container {
             position: relative;
