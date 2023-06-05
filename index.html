@@ -12,7 +12,7 @@
     <style>
         #map {
             position: fixed;
-            top: 0;
+            top: 80px;
             left: 0;
             width: 100%;
             height: 100%;
@@ -40,6 +40,8 @@
         <script src="data/promenabrstistanova_0.js"></script>
 
         <script>
+            var body = document.body;
+            body.style.backgroundColor = '#fff9dd';
             var bottomText = document.createElement('div');
             bottomText.id = 'bottom-text';
             bottomText.innerText = 'Izvor: Republički zavod za statistiku • Podaci za mapu: Republički geodetski zavod';
