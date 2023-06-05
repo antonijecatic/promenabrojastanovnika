@@ -2,7 +2,11 @@
         #map {
             background-color: #fff9dd
         }
-
+        @media (max-width: 768px) {
+            #map {
+                height: 300px; /* Adjust the height for mobile devices */
+            }
+        }
         #map-container {
             position: relative;
         }
