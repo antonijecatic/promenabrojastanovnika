@@ -4,7 +4,7 @@
         }
         @media (max-width: 768px) {
             #map {
-                height: 80%; /* Adjust the height for mobile devices */
+                height: 80vh; /* Adjust the height for mobile devices */
             }
         }
         #map-container {
